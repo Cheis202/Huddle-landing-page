@@ -1,0 +1,173 @@
+body{
+    margin: 0 auto;
+    width: 1440px;
+    background: hsl(257, 40%, 49%);
+}
+.all-phone{
+    display: none;
+}
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+.bg{
+    position: absolute;
+    z-index: -1;
+    
+}
+.header{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.logo{
+    width: 220px;
+    margin-left: 73px;
+}
+.container{
+    display: flex;
+}
+.contenido-img{
+    margin-top: 45px;
+    margin-left:73px;
+}
+.contenido-text{
+    margin: 60px;
+}
+.text{
+    width:500px
+}
+.text-heading{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+
+.text-body{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size:17.5px;
+}
+.icons-flex{
+    margin-right:50px ;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.ico{
+
+    padding: 12px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    
+}
+.ico:hover{
+    
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
+    border-radius: 50%;
+    
+}
+.fb{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box-button{
+    width: 250px;
+    height: 80px;
+}
+.boton{
+    height: 60px;
+    width: 200px;
+    
+    font-size:17.5px;
+    color:hsl(257, 40%, 49%) ;
+    background-color: #fff;
+    border-radius:30px;
+    border-width:0;
+    
+    
+    
+}
+.boton:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+@media screen AND (max-width:575px) {
+    body{
+        width: 375px;
+    }
+    .all-desktop{
+        display: none;
+    }
+    .all-phone{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bg-phone{
+        position: absolute;
+        z-index: -1;
+    }
+    .header-phone{
+        display: flex;
+        align-items: flex-start;
+    }
+    .logo-ph{
+        margin-top: 35px;
+        margin-left: 35px;
+        width: 130px;
+    }
+    .main-phone-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ilustration-ph{
+        padding-top: 58px;
+        padding-bottom: 40px;
+        width:300px;
+    }
+    .contenido-text-ph{
+        color: #fff;
+    }
+    .text-heading-ph{
+        width: 300px;
+        font-family: 'Poppins', sans-serif;
+        font-size:1.5em;
+        text-align: center;
+    }
+    .container-body-ph{
+        width: 300px;
+    }
+    .text-body-ph{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    .box-button-ph{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button-ph{
+        height: 45px;
+        width: 200px;
+        font-size:15px;
+        color:hsl(257, 40%, 49%) ;
+        background-color: #fff;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+    }
+    .footer-phone-flex{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .icons{
+        margin: 7px;
+    }
+    .fb-p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
